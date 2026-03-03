@@ -1,0 +1,134 @@
+<testsuites id="" name="" tests="9" failures="3" skipped="0" errors="0" time="10.68414">
+<testsuite name="Reporters.spec.js" timestamp="2026-01-08T21:32:57.052Z" hostname="chromium" tests="3" failures="1" skipped="0" time="7.471" errors="0">
+<testcase name="test 1" classname="Reporters.spec.js" time="0.743">
+</testcase>
+<testcase name="test 2" classname="Reporters.spec.js" time="1.041">
+</testcase>
+<testcase name="test 3" classname="Reporters.spec.js" time="5.687">
+<failure message="Reporters.spec.js:19:1 test 3" type="FAILURE">
+<![CDATA[  [chromium] › Reporters.spec.js:19:1 › test 3 ─────────────────────────────────────────────────────
+
+    Error: expect(page).toHaveTitle(expected) failed
+
+    Expected: "nopCommerce demo store. Home page title !"
+    Received: "nopCommerce demo store. Home page title"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveTitle" with timeout 5000ms
+        8 × unexpected value "nopCommerce demo store. Home page title"
+
+
+      20 |     
+      21 |     await page.goto('https://demo.nopcommerce.com/');
+    > 22 |     await expect(page).toHaveTitle('nopCommerce demo store. Home page title !');
+         |                        ^
+      23 |
+      24 | })
+        at /Users/sumanarai/Documents/playwrightAutomation/tests/Reporters.spec.js:22:24
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/Reporters-test-3-chromium/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/Reporters-test-3-chromium/error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Reporters-test-3-chromium/video.webm]]
+
+[[ATTACHMENT|test-results/Reporters-test-3-chromium/error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Reporters.spec.js" timestamp="2026-01-08T21:32:57.052Z" hostname="firefox" tests="3" failures="1" skipped="0" time="7.688" errors="0">
+<testcase name="test 1" classname="Reporters.spec.js" time="1.194">
+</testcase>
+<testcase name="test 2" classname="Reporters.spec.js" time="0.899">
+</testcase>
+<testcase name="test 3" classname="Reporters.spec.js" time="5.595">
+<failure message="Reporters.spec.js:19:1 test 3" type="FAILURE">
+<![CDATA[  [firefox] › Reporters.spec.js:19:1 › test 3 ──────────────────────────────────────────────────────
+
+    Error: expect(page).toHaveTitle(expected) failed
+
+    Expected: "nopCommerce demo store. Home page title !"
+    Received: "nopCommerce demo store. Home page title"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveTitle" with timeout 5000ms
+        9 × unexpected value "nopCommerce demo store. Home page title"
+
+
+      20 |     
+      21 |     await page.goto('https://demo.nopcommerce.com/');
+    > 22 |     await expect(page).toHaveTitle('nopCommerce demo store. Home page title !');
+         |                        ^
+      23 |
+      24 | })
+        at /Users/sumanarai/Documents/playwrightAutomation/tests/Reporters.spec.js:22:24
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/Reporters-test-3-firefox/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/Reporters-test-3-firefox/error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Reporters-test-3-firefox/video.webm]]
+
+[[ATTACHMENT|test-results/Reporters-test-3-firefox/error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Reporters.spec.js" timestamp="2026-01-08T21:32:57.052Z" hostname="webkit" tests="3" failures="1" skipped="0" time="9.289" errors="0">
+<testcase name="test 1" classname="Reporters.spec.js" time="2.522">
+</testcase>
+<testcase name="test 2" classname="Reporters.spec.js" time="1.111">
+</testcase>
+<testcase name="test 3" classname="Reporters.spec.js" time="5.656">
+<failure message="Reporters.spec.js:19:1 test 3" type="FAILURE">
+<![CDATA[  [webkit] › Reporters.spec.js:19:1 › test 3 ───────────────────────────────────────────────────────
+
+    Error: expect(page).toHaveTitle(expected) failed
+
+    Expected: "nopCommerce demo store. Home page title !"
+    Received: "nopCommerce demo store. Home page title"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveTitle" with timeout 5000ms
+        9 × unexpected value "nopCommerce demo store. Home page title"
+
+
+      20 |     
+      21 |     await page.goto('https://demo.nopcommerce.com/');
+    > 22 |     await expect(page).toHaveTitle('nopCommerce demo store. Home page title !');
+         |                        ^
+      23 |
+      24 | })
+        at /Users/sumanarai/Documents/playwrightAutomation/tests/Reporters.spec.js:22:24
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../test-results/Reporters-test-3-webkit/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../test-results/Reporters-test-3-webkit/error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results/Reporters-test-3-webkit/video.webm]]
+
+[[ATTACHMENT|test-results/Reporters-test-3-webkit/error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

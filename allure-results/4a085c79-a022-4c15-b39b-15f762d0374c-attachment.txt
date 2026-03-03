@@ -1,0 +1,19 @@
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 9260,
+  [Symbol(trigger_async_id_symbol)]: 8412,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 10008,
+  [Symbol(trigger_async_id_symbol)]: 9289,
+  [Symbol(kResourceStore)]: undefined
+}
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 10392,
+  [Symbol(trigger_async_id_symbol)]: 10037,
+  [Symbol(kResourceStore)]: undefined
+}
+Nexus 6
