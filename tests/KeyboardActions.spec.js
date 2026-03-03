@@ -24,7 +24,7 @@ test('keyboard action', async ({ page }) => {
 
 
 })
-test.only('keyboard action test', async ({ page }) => {
+test('keyboard action test', async ({ page }) => {
 
     await page.goto('https://rahulshettyacademy.com/client/#/auth/login');
 
